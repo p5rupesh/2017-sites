@@ -1,0 +1,58 @@
+/* line 1, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/reset.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Bariol", arial;
+  line-height: 1.5; }
+
+/* line 9, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/reset.scss */
+p {
+  margin: 0; }
+
+/* line 13, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/reset.scss */
+a {
+  text-decoration: none; }
+
+/* line 17, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/reset.scss */
+ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+/* line 24, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/reset.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+/* line 34, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/reset.scss */
+h1 {
+  font-size: 48px; }
+
+/* line 38, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/reset.scss */
+h2 {
+  font-size: 36px; }
+
+/* line 42, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/reset.scss */
+h3 {
+  font-size: 30px; }
+
+/* line 46, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/reset.scss */
+h4 {
+  font-size: 23px; }
+
+/* line 50, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/reset.scss */
+h5 {
+  font-size: 18px; }
+
+/* line 54, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/reset.scss */
+h6 {
+  font-size: 12px; }
+
+/*# sourceMappingURL=reset.css.map */

@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato.ttf');
+}
+
+@import 'reset';
+@import 'vars';
+body {
+    font: 16px 'Lato', 'arial';
+}
+
+
+/*common section*/
+
+.psect {
+    padding: 75px 30px;
+    text-align: center;
+    .pswrap {
+        width: 1300px;
+        margin: 0 auto;
+        padding: 1px 0 0 0;
+        h5 {
+            text-transform: uppercase;
+            &::after {
+                content: "";
+                display: block;
+                width: 50px;
+                height: 1px;
+                background: $black;
+                margin: 30px auto 0;
+            }
+        }
+    }
+}
+
+
+/*blue section*/
+
+.psect {
+    &.blue {
+        background: $cerulean-blue;
+        color: $white;
+        .pswrap {
+            h5 {
+                &::after {
+                    background: $white;
+                }
+            }
+        }
+    }
+}
+
+
+/*form*/
+
+%form-input {
+    height: 65px;
+    width: 100%;
+    border: 1px solid $white;
+    font-size: 26px;
+    color: $white;
+}
+
+form {
+    .form-wrap {
+        width: 620px;
+        margin: 90px auto 0;
+        .form-field {
+            position: relative;
+            input[type="text"],
+            input[type="password"],
+            textarea {
+                @extend %form-input;
+                margin: 0 0 25px 0;
+                padding: 10px;
+                background: transparent;
+                &:focus {
+                    outline: none;
+                    border: 2px solid $white;
+                    &+label {
+                        opacity: 1;
+                        left: 0;
+                        top: -20px;
+                        transform: translate(0, 0);
+                        font-size: 16px;
+                        transition: 0.5s;
+                    }
+                }
+                &.label-effect+label {
+                    opacity: 1;
+                    left: 0;
+                    top: -20px;
+                    transform: translate(0, 0);
+                    font-size: 16px;
+                    transition: 0.5s;
+                }
+            }
+            textarea {
+                height: 200px;
+                resize: none;
+            }
+            label {
+                position: absolute;
+                left: 10px;
+                top: 15px;
+                opacity: 0.3;
+                font-size: 26px;
+                transition: 0.5s;
+            }
+            span.error-msg {
+                display: block;
+                position: absolute;
+                right: 10px;
+                top: 15px;
+                opacity: 0;
+                font-size: 13px;
+                transition: 0.5s;
+                color: #2A63C1;
+                white-space: nowrap;
+                background: #EDEC00;
+                border-radius: 3px;
+                padding: 4px;
+            }
+            input.invalid {
+                //                border: 2px solid #ed3a00;/**/
+            }
+            input.valid {
+                border: 2px solid #00ED98;
+            }
+        }
+        input[type=button] {
+            @extend %form-input;
+            text-transform: uppercase;
+            background: $endeavour;
+            font: {
+                size: 24px;
+                weight: bold;
+            }
+            &:hover {
+                background: lighten($endeavour, 3%);
+            }
+        }
+    }
+}

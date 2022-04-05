@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+  /* line 2, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/responsive-style.scss */
+  .pswrap {
+    max-width: 100%;
+    height: 0px; } }
+
+/* line 9, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/responsive-style.scss */
+.menu {
+  background: #f5f5f5;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  z-index: 1;
+  opacity: 0; }
+  /* line 19, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/responsive-style.scss */
+  .menu.show {
+    opacity: 1; }
+  /* line 22, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/responsive-style.scss */
+  .menu li {
+    margin: 0 0 0 15px; }
+  /* line 25, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/responsive-style.scss */
+  .menu a {
+    color: #232324;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-radius: 0px;
+    text-align: center;
+    border-bottom: 1px solid #eee; }
+  /* line 34, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/responsive-style.scss */
+  .menu a:hover,
+  .menu a:active {
+    color: #f56262;
+    background: #eee; }
+
+/* line 41, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/responsive-style.scss */
+.slide .demobrowser {
+  height: 285px; }
+
+/* line 45, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/responsive-style.scss */
+.fblist li {
+  width: 100%;
+  padding: 0;
+  margin: 35px 0; }
+
+/* line 51, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/responsive-style.scss */
+.greenbg .fblist {
+  margin: -30px 0 0 -30px; }
+
+/* line 55, D:/FreeLance -Tuts/Practice-Websites/Motion template/scss/responsive-style.scss */
+.greenbg .fblist li {
+  width: calc(50% - 30px);
+  margin: 30px 0 0 30px; }
+
+/*# sourceMappingURL=responsive-style.css.map */

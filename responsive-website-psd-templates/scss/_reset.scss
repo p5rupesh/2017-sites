@@ -1,0 +1,46 @@
+@import 'vars';
+
+html,body{
+    margin:0;
+    padding:0;
+}
+p{
+    margin:0;
+}
+
+h6,h5,h4,h3,h2,h1{
+    margin:0;
+}
+h6{
+    font-size:48px;
+}
+h5{
+    font-size:36px;
+}
+h4{
+    font-size:30px;
+}
+h3{
+    font-size:24px;
+}
+h2{
+    font-size:20px;
+}
+h1{
+    font-size:12px;
+}
+ul{
+    margin:0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+
+input,
+textarea,
+keygen,
+select,
+button {
+    font: $h3 $base-font, 'Arial';
+}

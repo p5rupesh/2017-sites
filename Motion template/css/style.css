@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'Bariol';
+    src: url('../fonts/Bariol_Regular.otf');
+}
+
+* {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.psect {
+    padding: 25px 30px;
+    text-align: center;
+}
+
+.pswrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 1px 0 0 0;
+}
+
+.psect.header {
+    padding: 23.5px 30px;
+    background: #f56262;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.header .pswrap {
+    position: relative;
+}
+
+.logo {
+    display: block;
+    float: left;
+    background: url('../images/logo.png') no-repeat;
+    background-size: cover;
+    width: 166px;
+    height: 63px;
+    margin: 0;
+}
+
+.menu {
+    display: block;
+    position: absolute;
+    top: 16.5px;
+    bottom: 16.5px;
+    right: 0;
+    transition:0.5s;
+}
+
+.menu li {
+    float: left;
+    margin: 0 0 0 25px;
+}
+
+.menu li a {
+    display: block;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+
+.menu li a.active,
+.menu li a:hover {
+    background: #232324;
+}
+
+.pinkbg {
+    background: #eb4f4e;
+}
+
+.blackbg {
+    background: #232324;
+}
+
+.pstitle {
+    color: #fff;
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+
+.psdesc {
+    color: #d94948;
+    font-size: 20px;
+    margin: 0 0 35px;
+}
+
+.slider {
+    padding: 25px 0 0 0;
+    position: relative;
+}
+
+.slider-controls {}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+}
+
+.left-arrow span {
+    display: block;
+    background: url('../images/arrow.png') no-repeat;
+    background-position: 0 0;
+    height: 72px;
+    width: 38px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+.right-arrow span {
+    display: block;
+    background: url('../images/arrow.png') no-repeat;
+    background-position: -38px 0;
+    height: 72px;
+    width: 38px;
+}
+
+.slide {
+    margin: 0 auto;
+}
+
+.slide .pstitle {
+    font-size: 60px;
+}
+
+.slide .psdesc {
+    color: #fff;
+    margin: 0 0 15px 0;
+}
+
+.slide .demobrowser {
+    height: 474px;
+    background: url('../images/slider-1.png') no-repeat top center;
+    background-size: contain;
+}
+
+.fblist {
+    overflow: hidden;
+}
+
+.fblist li {
+    float: left;
+    width: 25.95%;
+    padding: 0 35px 0;
+}
+
+.fbox {
+    text-align: center;
+}
+
+.ficon {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background: #e74c3c;
+    margin: 0 auto;
+}
+
+.ficon:hover {
+    background: #f56262;
+}
+
+.ficon span {
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: url('../images/creative-sprite.png');
+    background-repeat: no-repeat;
+}
+
+.ficon1 span {
+    background-position: 0 0;
+}
+
+.ficon2 span {
+    background-position: -100px 0;
+}
+
+.ficon3 span {
+    background-position: -200px 0;
+}
+
+.blackbg .fbox h3 {
+    color: #fff;
+}
+
+.blackbg .fbox p {
+    color: #e74c3c;
+}
+
+.greenbg {
+    background: #6cc372;
+}
+
+.greenbg .psdesc {
+    color: #232324;
+}
+
+.greenbg .fblist {
+    margin: 0 0 0 -15px;
+}
+
+.greenbg .fblist li {
+    width: 23.4%;
+    padding: 0;
+    margin: 0 0 0 15px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.greenbg .fbox {
+    padding: 10px;
+}
+
+.greenbg .ficon {
+    margin: 15px auto;
+    height: 164px;
+    width: 164px;
+    background: #6cc372;
+    position: relative;
+}
+
+.greenbg .ficon span {
+    height: 147px;
+    width: 147px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.greenbg .ficon1 span {
+    background: url('../images/mahmoud.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.greenbg .ficon2 span {
+    background: url('../images/abd.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.greenbg .ficon3 span {
+    background: url('../images/mostafa.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.greenbg .ficon4 span {
+    background: url('../images/ahmad.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.greenbg .fbox p {
+    font-size: 18px;
+    color: #e74c3c;
+}
+
+.greenbtn {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    background: #6cc372;
+    padding:9px 0;
+    margin: 20px 0 0 0;
+    position: relative;
+    border-radius: 3px;
+}
+.greenbtn:hover{
+    background:#3B9141;
+}
+
+.greenbtn span{
+    content: "";
+    display: block;
+    height: 26px;
+    width: 32px;
+    background: url('../images/twittericon.png') no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform:translate(0,-50%);
+}

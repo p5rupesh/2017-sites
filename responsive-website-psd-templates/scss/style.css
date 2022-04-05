@@ -1,0 +1,194 @@
+/* line 1, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato.ttf"); }
+
+/*color*/
+/*fonts*/
+/*font-size*/
+/* line 3, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+html, body {
+  margin: 0;
+  padding: 0; }
+
+/* line 7, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+p {
+  margin: 0; }
+
+/* line 11, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+h6, h5, h4, h3, h2, h1 {
+  margin: 0; }
+
+/* line 14, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+h6 {
+  font-size: 48px; }
+
+/* line 17, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+h5 {
+  font-size: 36px; }
+
+/* line 20, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+h4 {
+  font-size: 30px; }
+
+/* line 23, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+h3 {
+  font-size: 24px; }
+
+/* line 26, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+h2 {
+  font-size: 20px; }
+
+/* line 29, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+h1 {
+  font-size: 12px; }
+
+/* line 32, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+ul {
+  margin: 0;
+  list-style: none; }
+
+/* line 36, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+a {
+  text-decoration: none; }
+
+/* line 40, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/_reset.scss */
+input,
+textarea,
+keygen,
+select,
+button {
+  font: 24px "Lato", "Arial"; }
+
+/*color*/
+/*fonts*/
+/*font-size*/
+/* line 12, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+body {
+  font: 16px 'Lato', 'arial'; }
+
+/*common section*/
+/* line 19, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+.psect {
+  padding: 75px 30px;
+  text-align: center; }
+  /* line 22, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+  .psect .pswrap {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 1px 0 0 0; }
+    /* line 26, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+    .psect .pswrap h5 {
+      text-transform: uppercase; }
+      /* line 28, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+      .psect .pswrap h5::after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 1px;
+        background: #000000;
+        margin: 30px auto 0; }
+
+/*blue section*/
+/* line 44, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+.psect.blue {
+  background: #2a63c1;
+  color: #ffffff; }
+  /* line 49, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+  .psect.blue .pswrap h5::after {
+    background: #ffffff; }
+
+/*form*/
+/* line 60, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+form .form-wrap .form-field input[type="text"],
+form .form-wrap .form-field input[type="password"],
+form .form-wrap .form-field textarea, form .form-wrap input[type=button] {
+  height: 65px;
+  width: 100%;
+  border: 1px solid #ffffff;
+  font-size: 26px;
+  color: #ffffff; }
+
+/* line 69, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+form .form-wrap {
+  width: 620px;
+  margin: 90px auto 0; }
+  /* line 72, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+  form .form-wrap .form-field {
+    position: relative; }
+    /* line 74, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+    form .form-wrap .form-field input[type="text"],
+    form .form-wrap .form-field input[type="password"],
+    form .form-wrap .form-field textarea {
+      margin: 0 0 25px 0;
+      padding: 10px;
+      background: transparent; }
+      /* line 81, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+      form .form-wrap .form-field input[type="text"]:focus,
+      form .form-wrap .form-field input[type="password"]:focus,
+      form .form-wrap .form-field textarea:focus {
+        outline: none;
+        border: 2px solid #ffffff; }
+        /* line 84, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+        form .form-wrap .form-field input[type="text"]:focus + label,
+        form .form-wrap .form-field input[type="password"]:focus + label,
+        form .form-wrap .form-field textarea:focus + label {
+          opacity: 1;
+          left: 0;
+          top: -20px;
+          transform: translate(0, 0);
+          font-size: 16px;
+          transition: 0.5s; }
+      /* line 93, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+      form .form-wrap .form-field input[type="text"].label-effect + label,
+      form .form-wrap .form-field input[type="password"].label-effect + label,
+      form .form-wrap .form-field textarea.label-effect + label {
+        opacity: 1;
+        left: 0;
+        top: -20px;
+        transform: translate(0, 0);
+        font-size: 16px;
+        transition: 0.5s; }
+    /* line 102, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+    form .form-wrap .form-field textarea {
+      height: 200px;
+      resize: none; }
+    /* line 106, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+    form .form-wrap .form-field label {
+      position: absolute;
+      left: 10px;
+      top: 15px;
+      opacity: 0.3;
+      font-size: 26px;
+      transition: 0.5s; }
+    /* line 114, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+    form .form-wrap .form-field span.error-msg {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 15px;
+      opacity: 0;
+      font-size: 13px;
+      transition: 0.5s;
+      color: #2A63C1;
+      white-space: nowrap;
+      background: #EDEC00;
+      border-radius: 3px;
+      padding: 4px; }
+    /* line 131, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+    form .form-wrap .form-field input.valid {
+      border: 2px solid #00ED98; }
+  /* line 135, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+  form .form-wrap input[type=button] {
+    text-transform: uppercase;
+    background: #204b93;
+    font-size: 24px;
+    font-weight: bold; }
+    /* line 143, D:/FreeLance -Tuts/Practice-Websites/responsive-website-psd-templates/scss/style.scss */
+    form .form-wrap input[type=button]:hover {
+      background: #2351a0; }
+
+/*# sourceMappingURL=style.css.map */

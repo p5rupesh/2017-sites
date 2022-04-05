@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato.ttf"); }
+/*color*/
+/*fonts*/
+/*font-size*/
+html, body {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0; }
+
+h6, h5, h4, h3, h2, h1 {
+  margin: 0; }
+
+h6 {
+  font-size: 48px; }
+
+h5 {
+  font-size: 36px; }
+
+h4 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h2 {
+  font-size: 20px; }
+
+h1 {
+  font-size: 12px; }
+
+ul {
+  margin: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+input,
+textarea,
+keygen,
+select,
+button {
+  font: 24px "Lato", "Arial"; }
+
+/*color*/
+/*fonts*/
+/*font-size*/
+body {
+  font: 16px 'Lato', 'arial'; }
+
+/*common section*/
+.psect {
+  padding: 75px 30px;
+  text-align: center; }
+  .psect .pswrap {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 1px 0 0 0; }
+    .psect .pswrap h5 {
+      text-transform: uppercase; }
+      .psect .pswrap h5::after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 1px;
+        background: #000000;
+        margin: 30px auto 0; }
+
+/*blue section*/
+.psect.blue {
+  background: #2a63c1;
+  color: #ffffff; }
+  .psect.blue .pswrap h5::after {
+    background: #ffffff; }
+
+/*form*/
+form .form-wrap .form-field input[type="text"],
+form .form-wrap .form-field input[type="password"],
+form .form-wrap .form-field textarea, form .form-wrap input[type=button] {
+  height: 65px;
+  width: 100%;
+  border: 1px solid #ffffff;
+  font-size: 26px;
+  color: #ffffff; }
+
+form .form-wrap {
+  width: 620px;
+  margin: 90px auto 0; }
+  form .form-wrap .form-field {
+    position: relative; }
+    form .form-wrap .form-field input[type="text"],
+    form .form-wrap .form-field input[type="password"],
+    form .form-wrap .form-field textarea {
+      margin: 0 0 25px 0;
+      padding: 10px;
+      background: transparent; }
+      form .form-wrap .form-field input[type="text"]:focus,
+      form .form-wrap .form-field input[type="password"]:focus,
+      form .form-wrap .form-field textarea:focus {
+        outline: none;
+        border: 2px solid #ffffff; }
+        form .form-wrap .form-field input[type="text"]:focus + label,
+        form .form-wrap .form-field input[type="password"]:focus + label,
+        form .form-wrap .form-field textarea:focus + label {
+          opacity: 1;
+          left: 0;
+          top: -20px;
+          transform: translate(0, 0);
+          font-size: 16px;
+          transition: 0.5s; }
+      form .form-wrap .form-field input[type="text"].label-effect + label,
+      form .form-wrap .form-field input[type="password"].label-effect + label,
+      form .form-wrap .form-field textarea.label-effect + label {
+        opacity: 1;
+        left: 0;
+        top: -20px;
+        transform: translate(0, 0);
+        font-size: 16px;
+        transition: 0.5s; }
+    form .form-wrap .form-field textarea {
+      height: 200px;
+      resize: none; }
+    form .form-wrap .form-field label {
+      position: absolute;
+      left: 10px;
+      top: 15px;
+      opacity: 0.3;
+      font-size: 26px;
+      transition: 0.5s; }
+    form .form-wrap .form-field span.error-msg {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 15px;
+      opacity: 0;
+      font-size: 13px;
+      transition: 0.5s;
+      color: #2A63C1;
+      white-space: nowrap;
+      background: #EDEC00;
+      border-radius: 3px;
+      padding: 4px; }
+    form .form-wrap .form-field input.valid {
+      border: 2px solid #00ED98; }
+  form .form-wrap input[type=button] {
+    text-transform: uppercase;
+    background: #204b93;
+    font-size: 24px;
+    font-weight: bold; }
+    form .form-wrap input[type=button]:hover {
+      background: #2351a0; }
+
+/*# sourceMappingURL=style.css.map */
